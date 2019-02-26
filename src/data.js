@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 // Searching for the name of Pokemon
 const searchNamePokemon = (nameInput)=> {
   let namePokemon = "";
@@ -34,4 +32,3 @@ window.dataLovers = {
   catalogPokemon,
   searchNamePokemon
 }
->>>>>>> upstream/master
