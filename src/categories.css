@@ -14,6 +14,10 @@
 #categories button {
     background: none;
     border: none;
+    cursor: pointer;
+}
+#categories button:hover {
+
 }
 #categories p {
     color:black;
