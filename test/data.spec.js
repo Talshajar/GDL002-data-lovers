@@ -51,6 +51,7 @@ describe('orderPokemonAlfb', () => {
     expect(typeof dataLovers.orderPokemonAlfb(dragon)).toBe('object');
   });
 
+  
    it("should return an array in order alphabetic information with Dragon type  when i click on the botton ordenar  ", () => {
     expect(dataLovers.orderPokemonAlfb(dragon)).toEqual(dragonSort);
   });
