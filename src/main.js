@@ -1,3 +1,8 @@
+document.getElementById("description").style.display = "none";
+document.getElementById("resultByTypeSort").style.display = "none";
+document.getElementById("averageScreen").style.display = "none";
+
+
 /*const pagInicio =() => {
     document.getElementById("inicio").style.display = "block";
     document.getElementById("resultByType").style.display = "none";
@@ -87,3 +92,8 @@ document.getElementById("filterhByTypeGhost").addEventListener("click", function
 document.getElementById("filterhByTypeDragon").addEventListener("click", function () { typePokemonPrint ("Dragon"); });
 document.getElementById("filterhByTypeElectic").addEventListener("click", function () { typePokemonPrint ("Electric"); });
  
+
+function hidden (){
+    document.getElementById("screen1").style.display = "none";
+    document.getElementById("screen2").style.display = "block";
+ }
